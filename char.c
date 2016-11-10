@@ -16,6 +16,12 @@ int main()
   }
   else
   {
+    if ( (letra>=48) && (letra<=57) )
+  {
+    printf("Isso é um numero!\n");
+  } 
+    else 
+  
     {printf("Letra minuscula!\n");}
   }
   
